@@ -1,34 +1,45 @@
  {
-	border: 1px solid #C9C9C9;
+	border: thin solid #C9C9C9;
 }
 
-.navigation {
-	width: 100%;
-	padding: 50px;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
-.gmail {
-	float: right;
+.navigation li {
+	float: left;
 }
 
-.images {
-	float: right;
-}
-
-.googleapps {
+.navigation ul {
 	float: right;
 }
 
 .signin {
-	border-radius: 2px;
-	background-color: #4285F4;
+	background-color: #4486F9;
 	color: white;
-	padding: 6px 15px 6px 15px;
-	float: right;
+	border-radius: 1px;
+	padding: 7px 13px;
+	font-weight: 600;
 }
 
-.image {
+a {
+	display: block;
+	padding: 8px;
+	color: #727272;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 13px;
+}
 
+.navigation {
+	width: 100%;
+	padding: 1px;
+}
+
+.navbuttons {
+	margin-right: 20px;
 }
 
 .logo {
@@ -48,62 +59,62 @@
 	display: block;
 	margin: auto;
 	margin-top: 25px;
-	width: 500px;
+	width: 550px;
 	padding-top: 25px;
 	border-radius: 2px;
-	box-shadow: 0 3px 2px -2px #F2F2F2;
+	border: thin solid #F2F2F2;
+	-moz-box-shadow: 0px 1px 2px 0px silver;
+    -webkit-box-shadow: 0px 1px 2px 0px silver;
+    box-shadow: 0px 1px 2px 0px silver;
 }
 
 .searchbuttons {
 	margin: auto;
-	width: 280px;
-	margin-top: 25px;
+	width: 262px;
+	margin-top: 30px;
+}
+
+.googlesearch .imfeelinglucky {
+	display: block;
+	margin: auto;
 }
 
 .googlesearch {
-	display: block;
-	margin: auto;
 	float: left;
 }
 
 .imfeelinglucky {
-	display: block;
-	margin: auto;
 	float: right;
+}
+
+.searchbuttons input {
+	background-color: #F2F2F2;
+	border: none;
+	border-radius: 2px;
+	font-size: 13px;
+	padding: 11px 17px 11px 17px;
 }
 
 .footer {
+	background-color: #F2F2F2;
+	width: 100%;
 	position: fixed;
 	bottom: 0;
-	width: 100%;
-	background-color: #F2F2F2;
-	padding: 10px 20px 10px 20px;
+	right: 0;
+	left: 0;
+	border: 1px solid #E4E4E4;
+	padding-top: 7px;
 }
 
-.advertising .business .about .privacy .terms .settings {
-	color: #757575;
+.footerbuttons {
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
-.advertising {
-
+.footer .l {
+	float: left;
 }
 
-.business {
-
-}
-
-.about {
-
-}
-
-.privacy {
-	float: right;
-}
-
-.terms {
-	float: right;
-}
-
-.settings {
+.footer .r {
 	float: right;
 }
