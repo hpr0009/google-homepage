@@ -1,41 +1,109 @@
-* {
+ {
 	border: 1px solid #C9C9C9;
 }
 
+.navigation {
+	width: 100%;
+	padding: 50px;
+}
+
+.gmail {
+	float: right;
+}
+
+.images {
+	float: right;
+}
+
+.googleapps {
+	float: right;
+}
+
+.signin {
+	border-radius: 2px;
+	background-color: #4285F4;
+	color: white;
+	padding: 6px 15px 6px 15px;
+	float: right;
+}
+
 .image {
+
+}
+
+.logo {
 	display: block;
 	margin: auto;
-	margin-top: 130px;
+	margin-top: 180px;
 }
 
 
+}
 
-.search {
-	margin: auto;
-	width: 90%;
-	margin-top: 50px;
+.searchbarbox {
+	
 }
 
 .searchbar {
 	display: block;
 	margin: auto;
+	margin-top: 25px;
 	width: 500px;
-	margin-top: 50px;
 	padding-top: 25px;
-	border-radius: 3px;
-	box-shadow: 0px 3px 5px #888888;
+	border-radius: 2px;
+	box-shadow: 0 3px 2px -2px #F2F2F2;
+}
+
+.searchbuttons {
+	margin: auto;
+	width: 280px;
+	margin-top: 25px;
 }
 
 .googlesearch {
 	display: block;
 	margin: auto;
+	float: left;
 }
 
-.lucky {
+.imfeelinglucky {
 	display: block;
 	margin: auto;
+	float: right;
 }
 
 .footer {
-	margin-top: 100%;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #F2F2F2;
+	padding: 10px 20px 10px 20px;
+}
+
+.advertising .business .about .privacy .terms .settings {
+	color: #757575;
+}
+
+.advertising {
+
+}
+
+.business {
+
+}
+
+.about {
+
+}
+
+.privacy {
+	float: right;
+}
+
+.terms {
+	float: right;
+}
+
+.settings {
+	float: right;
 }
